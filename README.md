@@ -60,13 +60,13 @@ As my experience with front-end is very limited, the solution was built fully as
 
 Two options for running the application. Directly through the terminal or as a Web Springboot application with a couple of endpoints.
 
-###Terminal application
+### Terminal application
 1. Build the application using `mvn clean install`.
 2. Run the application passing the JSON file as first argument.  
     `java -jar target/scoreAssignment-1.0-SNAPSHOT.jar rushing.json`
 3. The application will provide further instructions regarding sorting, filtering and saving the CSV.
 
-###Springboot web application
+### Springboot web application
 1. Build and run the application using `mvn spring-boot:run`.
 2. There will be two endpoints for getting the data in JSON or CSV formats.  
     `http://localhost:8080/rushing` - This endpoint will provide the Players Data as a JSON list.  
