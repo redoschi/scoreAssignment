@@ -1,8 +1,18 @@
 # Compiled class file
 *.class
 
-# Log file
+# Build folder
+/target
+
+# IntelliJ
+*.iml
+
+# macOS files
+.DS_Store
+
+# Log/CSV file
 *.log
+*.csv
 
 # BlueJ files
 *.ctxt
